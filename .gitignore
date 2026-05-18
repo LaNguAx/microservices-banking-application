@@ -1,0 +1,58 @@
+### Maven / Java ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Gradle ###
+.gradle/
+
+### Spring Boot ###
+HELP.md
+
+### Logs ###
+*.log
+logs/
+
+### IDE ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.project
+.classpath
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+.apt_generated/
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Secrets & local overrides ###
+.env
+.env.*
+!.env.example
+**/application-local.yml
+**/application-*-local.yml
+**/application-local.properties
+**/application-*-local.properties
